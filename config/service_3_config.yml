@@ -1,0 +1,11 @@
+version: 1
+datastore:
+  filename: data.json
+scheduler:
+  period_sec: 5
+eventstore:
+  url: http://service-ddo14.westus2.cloudapp.azure.com:8090
+kafka:
+  domain: "service-ddo14.westus2.cloudapp.azure.com"
+  port: "9092"
+  topic: "events"
